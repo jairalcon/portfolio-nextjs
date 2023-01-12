@@ -27,18 +27,34 @@ const Contact = () => {
                             <div>
                                 <p className='uppercase pt-8'>Connect With Me</p>
                                 <div className='flex items-center justify-between py-4'>
-                                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                        <FaLinkedinIn />
-                                    </div>
-                                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                        <FaGithub />
-                                    </div>
-                                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                        <AiOutlineMail />
-                                    </div>
-                                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                        <BsFillPersonLinesFill />
-                                    </div>
+                                    <a
+                                        href='https://www.linkedin.com/in/jairalcon/'
+                                        target='_blank'
+                                        rel='noreferrer'
+                                    >
+                                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                            <FaLinkedinIn />
+                                        </div>
+                                    </a>
+                                    <a
+                                        href='https://github.com/jairalcon'
+                                        target='_blank'
+                                        rel='noreferrer'
+                                    >
+                                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                            <FaGithub />
+                                        </div>
+                                    </a>
+                                    <Link href='/#contact'>
+                                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                            <AiOutlineMail />
+                                        </div>
+                                    </Link>
+                                    <Link href='/resume'>
+                                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                            <BsFillPersonLinesFill />
+                                        </div>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
