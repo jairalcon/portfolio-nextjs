@@ -52,8 +52,7 @@ const resume = () => {
                     Analytical, innovative, and motivated web development professional
                     with experience in customer service, team leadership, and
                     organizational effectiveness in fast-paced and challenging
-                    environments. Adept at developing strategies and driving streamlined
-                    operations. Diverse analytical skills, team collaboration, and
+                    environments. Diverse analytical skills, team collaboration, and
                     relationship building. Consummate professional, and motivated leader,
                     with solid interpersonal abilities and complex problem-solving skills.
                     Effective and proven track record of critical thinking, idea
@@ -62,17 +61,17 @@ const resume = () => {
 
                 {/* Skills */}
                 <div className='text-center py-4'>
-                    <h5 className='text-center underline text-[18px] py-2'>Skills</h5>
+                    <h5 className='text-center underline text-[18px] py-2 text-[#4169E1]'>Skills</h5>
                     <p className='py-2'>
                         <span className='font-bold'>Technical Skills</span>
-                        <span className='px-2'>|</span>Front-End Web Developer
-                        <span className='px-2'>|</span>HTML
-                        <span className='px-2'>|</span>CSS
-                        <span className='px-2'>|</span>Javascript
-                        <span className='px-2'>|</span>React
-                        <span className='px-2'>|</span>Next JS
-                        <span className='px-2'>|</span>Tailwind
-                        <span className='px-2'>|</span> RESTAPI
+                        <span className='px-2 inline-block'>|</span>Front-End Web Developer
+                        <span className='px-2 inline-block'>|</span>HTML
+                        <span className='px-2 inline-block'>|</span>CSS
+                        <span className='px-2 inline-block'>|</span>Javascript
+                        <span className='px-2 inline-block'>|</span>React
+                        <span className='px-2 inline-block'>|</span>Next.js
+                        <span className='px-2 inline-block'>|</span>Tailwind
+                        <span className='px-2 inline-block'>|</span>RESTAPI
                     </p>
                     <p className='py-2'>
                         <span className='font-bold'>Amazon Web Services</span>
@@ -81,34 +80,113 @@ const resume = () => {
                     </p>
                 </div>
 
-                <h5 className='text-center underline text-[18px] py-4'>
-                    Professional Experience
+                {/* Education */}
+                <h5 className='text-center underline text-[18px] py-4 text-[#4169E1]'>
+                    Education
                 </h5>
-                {/* Experience */}
+                {/* Promineo Tech */}
                 <div className='py-6'>
                     <p className='italic'>
                         <span className='font-bold italic'>
-                            INFINITE TECH
+                            PROMINEO TECH
                         </span>
-                        <span className='px-2'>|</span>Dallas, TX
+                        <span className='px-2'>|</span>Surprise, AZ (online)
                     </p>
-                    <p className='py-1 italic'>Front End Web Developer & Web Master (2013 - Current)</p>
+                    <p className='py-1 italic'>Program: Front End Software Development (May 2022 - October 2022)</p>
+                    <p className='underline'>Courses:</p>
                     <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
                         <li>
-                            Ensured comprehensive mobile responsive UI layouts with
-                            understanding of HTML, CSS, and JavaScript.
+                            Introduction to JavaScript (6 Weeks)
+                            <p className='ml-4'>Basic programming in JavaScript (ES6) to advanced Object-Oriented concepts, functional programming, design patterns, and unit testing. Version control with Git.</p>
                         </li>
                         <li>
-                            Troubleshoot issues and concerns, configure operation and analytic
-                            plugins, and design changes as needed.
+                            Front End Technologies (6 Weeks)
+                            <p className='ml-4'>User interface design including HTML, CSS, Bootstrap, JQuery, and AJAX. Built dynamic, responsive applications using vanilla JavaScript and then JQuery.</p>
                         </li>
                         <li>
-                            Worked directly with a diverse client base to understand and
-                            implement multiple technologies and programs.
+                            Web App Design with ReactJS (6 Weeks)
+                            <p className='ml-4'>Designed and built dynamic, modular user interfaces using ReactJS. Concepts include everything from basic JSX and components to advanced application development and deploying applications with AWS Elastic Beanstalk.</p>
+                        </li>
+                    </ul>
+                </div>
+
+                {/* Southwestern Adventist University */}
+                <div className='py-6'>
+                    <p className='italic'>
+                        <span className='font-bold italic'>
+                            SOUTHWESTERN ADVENTIST UNIVERSITY
+                        </span>
+                        <span className='px-2'>|</span>Keene, TX
+                    </p>
+                    <p className='py-1 italic'>Degree: Psychology - Major; Wellness - Minor (2006 - 2010)</p>
+                    <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+                        <li>
+                            Completed most credits towards my degrees but financial reasons didn't allow me to finish.
                         </li>
                         <li>
-                            Platform migration managing DNS servers as well as MX records and
-                            ensuring a smooth migration process.
+                            Psychology/Education Club - Chaplain (2007-2009)
+                            <p className='ml-4'>I served as chaplain for the club 2 years while at Southwestern and helped plan club events in conjunction with other club officers and club sponsors.</p>
+                        </li>
+                        <li>
+                            Placed 1st in every intramural racquetball tournament from 2006-2010.
+                        </li>
+                    </ul>
+                </div>
+
+                {/* Bentonville High School */}
+                <div className='py-6'>
+                    <p className='italic'>
+                        <span className='font-bold italic'>
+                            BENTONVILLE HIGH SCHOOL
+                        </span>
+                        <span className='px-2'>|</span>Bentonville, AR
+                    </p>
+                    <p className='py-1 italic'>High School Diploma (August 2002 - May 2005)</p>
+                    <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+                        <li>
+                            National Spanish Exam
+                            <p className='ml-4'>My test score placed me No. 1 in my high school, county, and state.</p>
+                        </li>
+                    </ul>
+                </div>
+
+                {/* Experience */}
+                <h5 className='text-center underline text-[18px] py-4 text-[#4169E1]'>
+                    Professional Experience
+                </h5>
+
+                {/* Shutterfly Lifetouch Inc. */}
+                <div className='py-6'>
+                    <p className='italic'>
+                        <span className='font-bold italic'>
+                            SHUTTERFLY LIFETOUCH INC.
+                        </span>
+                        <span className='px-2'>|</span>Rogers, AR
+                    </p>
+                    <p className='py-1 italic'>Photography Supervisor (September 2015 - May 2022)</p>
+                    <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+                        <li>
+                            Received promotion to Photography Supervisor.
+                        </li>
+                        <li>
+                            Interview, hire, help on-board, and train new photography team members on a seasonal basis.
+                        </li>
+                        <li>
+                            Supervise, coach, and develop photography team's skills through on-site training in schools and weekly feedback.
+                        </li>
+                        <li>
+                            Responsible for efficient picture day scheduling by ensuring appropriate match of photographer's skills to
+                            maximize productivity for key accounts.
+                        </li>
+                        <li>
+                            Ensure the photography team is assigned their equipment sets on a weekly basis by collaborating with
+                            Photography Administrator.
+                        </li>
+                        <li>
+                            Collaborate with Photography Manager to ensure commitments are fulfilled when photography member(s) call- in sick.
+                        </li>
+                        <li>
+                            Maintain inventory of expendable photography supplies and other operational responsibilities
                         </li>
                     </ul>
                 </div>
@@ -138,7 +216,7 @@ const resume = () => {
                 </div>
 
                 {/*  */}
-                <h5 className='text-center underline text-[18px] py-4'>
+                <h5 className='text-center underline text-[18px] py-4 text-[#4169E1]'>
                     Other Professional Experience
                 </h5>
 
