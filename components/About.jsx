@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import headShot from '../public/assets/aboutMe.JPEG';
+import headShot from '../public/assets/aboutMe.jpg';
 
 const About = () => {
     return (
