@@ -190,9 +190,9 @@ const resume = () => {
                     </ul>
                 </div>
 
-
+                {/* //!PLACEHOLDER */}
                 {/* Personal Experience */}
-                <div className='py-6'>
+                {/* <div className='py-6'>
                     <p className='italic'>
                         <span className='font-bold italic'>
                             Teaching & Mentoring Web Development
@@ -212,7 +212,7 @@ const resume = () => {
                             concepts and code reviews.
                         </li>
                     </ul>
-                </div>
+                </div> */}
 
                 {/* //! PLACEHOLER */}
                 {/* <h5 className='text-center underline text-[18px] py-4 text-[#4169E1]'>
