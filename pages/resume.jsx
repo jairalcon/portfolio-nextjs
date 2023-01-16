@@ -121,7 +121,7 @@ const resume = () => {
                     <p className='py-1 italic'>Degree: Psychology - Major; Wellness - Minor (2006 - 2010)</p>
                     <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
                         <li>
-                            Completed most credits towards my degrees but financial reasons didn't allow me to finish.
+                            Completed most credits towards my degrees but financial reasons didn&rsquo;t allow me to finish.
                         </li>
                         <li>
                             Psychology/Education Club - Chaplain (2007-2009)
@@ -172,10 +172,10 @@ const resume = () => {
                             Interview, hire, help on-board, and train new photography team members on a seasonal basis.
                         </li>
                         <li>
-                            Supervise, coach, and develop photography team's skills through on-site training in schools and weekly feedback.
+                            Supervise, coach, and develop photography team&rsquo;s skills through on-site training in schools and weekly feedback.
                         </li>
                         <li>
-                            Responsible for efficient picture day scheduling by ensuring appropriate match of photographer's skills to
+                            Responsible for efficient picture day scheduling by ensuring appropriate match of photographer&rsquo;s skills to
                             maximize productivity for key accounts.
                         </li>
                         <li>
