@@ -215,13 +215,13 @@ const resume = () => {
                     </ul>
                 </div>
 
-                {/*  */}
-                <h5 className='text-center underline text-[18px] py-4 text-[#4169E1]'>
+                {/* //! PLACEHOLER */}
+                {/* <h5 className='text-center underline text-[18px] py-4 text-[#4169E1]'>
                     Other Professional Experience
-                </h5>
+                </h5> */}
 
                 {/* Experience */}
-                <div className='py-6'>
+                {/* <div className='py-6'>
                     <p className='italic'>
                         <span className='font-bold'>CITY OF SHERMAN, TX</span>
                         <span className='px-2'>|</span>Sherman, TX
@@ -255,7 +255,7 @@ const resume = () => {
                             Support, among others.
                         </li>
                     </ul>
-                </div>
+                </div> */}
             </div>
         </>
     );
