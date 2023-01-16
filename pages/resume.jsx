@@ -75,8 +75,7 @@ const resume = () => {
                     </p>
                     <p className='py-2'>
                         <span className='font-bold'>Amazon Web Services</span>
-                        <span className='px-2'>|</span>Amazon Web Services Cloud
-                        Practitioner
+                        <span className='px-2'>|</span>Amazon Web Services Amplify
                     </p>
                 </div>
 
