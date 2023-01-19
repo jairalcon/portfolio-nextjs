@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 import React from 'react';
 import AWS from '../public/assets/skills/aws.png';
 import CSS from '../public/assets/skills/css.png';
@@ -21,7 +21,15 @@ const Skills = () => {
                     <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src={HTML} width='64' height='64' alt='/' />
+                                <Image
+                                    src={HTML}
+                                    width='64'
+                                    height='64'
+                                    alt='/'
+                                    style={{
+                                        maxWidth: "100%",
+                                        height: "auto"
+                                    }} />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
                                 <h3>HTML</h3>
@@ -32,7 +40,15 @@ const Skills = () => {
                     <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src={CSS} width='64' height='64' alt='/' />
+                                <Image
+                                    src={CSS}
+                                    width='64'
+                                    height='64'
+                                    alt='/'
+                                    style={{
+                                        maxWidth: "100%",
+                                        height: "auto"
+                                    }} />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
                                 <h3>CSS</h3>
@@ -43,7 +59,15 @@ const Skills = () => {
                     <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src={JS} width='64' height='64' alt='/' />
+                                <Image
+                                    src={JS}
+                                    width='64'
+                                    height='64'
+                                    alt='/'
+                                    style={{
+                                        maxWidth: "100%",
+                                        height: "auto"
+                                    }} />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
                                 <h3>JAVASCRIPT</h3>
@@ -54,7 +78,15 @@ const Skills = () => {
                     <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src={REACT} width='64' height='64' alt='/' />
+                                <Image
+                                    src={REACT}
+                                    width='64'
+                                    height='64'
+                                    alt='/'
+                                    style={{
+                                        maxWidth: "100%",
+                                        height: "auto"
+                                    }} />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
                                 <h3>REACT</h3>
@@ -65,7 +97,15 @@ const Skills = () => {
                     <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src={GITHUB} width='64' height='64' alt='/' />
+                                <Image
+                                    src={GITHUB}
+                                    width='64'
+                                    height='64'
+                                    alt='/'
+                                    style={{
+                                        maxWidth: "100%",
+                                        height: "auto"
+                                    }} />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
                                 <h3>GITHUB</h3>
@@ -76,7 +116,15 @@ const Skills = () => {
                     <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src={NODE} width='64' height='64' alt='/' />
+                                <Image
+                                    src={NODE}
+                                    width='64'
+                                    height='64'
+                                    alt='/'
+                                    style={{
+                                        maxWidth: "100%",
+                                        height: "auto"
+                                    }} />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
                                 <h3>NODE JS</h3>
@@ -87,7 +135,15 @@ const Skills = () => {
                     <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src={AWS} width='64' height='64' alt='/' />
+                                <Image
+                                    src={AWS}
+                                    width='64'
+                                    height='64'
+                                    alt='/'
+                                    style={{
+                                        maxWidth: "100%",
+                                        height: "auto"
+                                    }} />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
                                 <h3>AWS</h3>
@@ -98,7 +154,15 @@ const Skills = () => {
                     <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src={TW} width='64' height='64' alt='/' />
+                                <Image
+                                    src={TW}
+                                    width='64'
+                                    height='64'
+                                    alt='/'
+                                    style={{
+                                        maxWidth: "100%",
+                                        height: "auto"
+                                    }} />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
                                 <h3>TAILWIND</h3>
@@ -109,7 +173,15 @@ const Skills = () => {
                     <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src={NEXTJS} width='64' height='64' alt='/' />
+                                <Image
+                                    src={NEXTJS}
+                                    width='64'
+                                    height='64'
+                                    alt='/'
+                                    style={{
+                                        maxWidth: "100%",
+                                        height: "auto"
+                                    }} />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
                                 <h3>NEXT JS</h3>
@@ -119,7 +191,7 @@ const Skills = () => {
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
 export default Skills

@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
@@ -55,7 +55,10 @@ const Navbar = () => {
             alt="/"
             width='75'
             height='50'
-          />
+            style={{
+              maxWidth: "100%",
+              height: "auto"
+            }} />
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
@@ -91,7 +94,15 @@ const Navbar = () => {
           <div>
             <div className='flex w-full items-center justify-between'>
               <Link href='/'>
-                <Image src={navLogo} width='87' height='35' alt='/' />
+                <Image
+                  src={navLogo}
+                  width='87'
+                  height='35'
+                  alt='/'
+                  style={{
+                    maxWidth: "100%",
+                    height: "auto"
+                  }} />
               </Link>
               <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
                 <AiOutlineClose size={25} />
@@ -162,7 +173,7 @@ const Navbar = () => {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default Navbar

@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 import Link from 'next/link';
 import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
@@ -24,7 +24,16 @@ const Contact = () => {
                     <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
                         <div className='lg:p-4 h-full'>
                             <div>
-                                <Image className='rounded-xl hover:scale-105 ease-in duration-300' src={contactImg} width='700' height='700' alt="contact photo" />
+                                <Image
+                                    className='rounded-xl hover:scale-105 ease-in duration-300'
+                                    src={contactImg}
+                                    width='700'
+                                    height='700'
+                                    alt="contact photo"
+                                    style={{
+                                        maxWidth: "100%",
+                                        height: "auto"
+                                    }} />
                             </div>
                             <div>
                                 {/* <h2 className='py-2'>Name here</h2> */}
@@ -111,7 +120,7 @@ const Contact = () => {
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
 export default Contact
