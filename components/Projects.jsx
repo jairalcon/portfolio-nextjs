@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectItem from './ProjectItem';
-import propertyImg from '../public/assets/projects/property.jpg'
+import f1QuizImg from '../public/assets/projects/f1quiz.jpg'
 import cryptoImg from '../public/assets/projects/crypto.jpg';
 import netflixImg from '../public/assets/projects/netflix.jpg';
 import twitchImg from '../public/assets/projects/twitch.jpg';
@@ -14,7 +14,7 @@ const Projects = () => {
                 <div className='grid md:grid-cols-2 gap-8'>
                     {/* //! PLACEHOLDER */}
 
-                    {/* <ProjectItem title='Property Finder' backgroundImg={propertyImg} projectUrl='/property' /> */}
+                    <ProjectItem title='F1 Quiz App' backgroundImg={f1QuizImg} projectUrl='/f1quiz' />
                     {/* <ProjectItem title='Crypto App' backgroundImg={cryptoImg} projectUrl='/crypto' /> */}
                     {/* <ProjectItem title='Netflix App' backgroundImg={netflixImg} projectUrl='/netflix' /> */}
                     {/* <ProjectItem title='Twitch App' backgroundImg={twitchImg} projectUrl='/twitch' /> */}
