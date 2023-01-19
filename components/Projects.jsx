@@ -1,9 +1,8 @@
 import React from 'react';
 import ProjectItem from './ProjectItem';
 import f1QuizImg from '../public/assets/projects/f1quiz.jpg'
-import cryptoImg from '../public/assets/projects/crypto.jpg';
-import netflixImg from '../public/assets/projects/netflix.jpg';
-import twitchImg from '../public/assets/projects/twitch.jpg';
+import portfolioImg from '../public/assets/projects/portfolio.jpg';
+import NextPI from './NextPI';
 
 const Projects = () => {
     return (
@@ -15,12 +14,7 @@ const Projects = () => {
                     {/* //! PLACEHOLDER */}
 
                     <ProjectItem title='F1 Quiz App' backgroundImg={f1QuizImg} projectUrl='/f1quiz' />
-                    {/* <ProjectItem title='Crypto App' backgroundImg={cryptoImg} projectUrl='/crypto' /> */}
-                    {/* <ProjectItem title='Netflix App' backgroundImg={netflixImg} projectUrl='/netflix' /> */}
-                    {/* <ProjectItem title='Twitch App' backgroundImg={twitchImg} projectUrl='/twitch' /> */}
-                    {/* <ProjectItem title='Property Finder' backgroundImg={propertyImg} projectUrl='/property' /> */}
-                    {/* <ProjectItem title='Property Finder' backgroundImg={propertyImg} projectUrl='/property' /> */}
-
+                    <NextPI title='My Portfolio Site' backgroundImg={portfolioImg} projectUrl='/portfolio' />
                 </div>
             </div>
         </div>

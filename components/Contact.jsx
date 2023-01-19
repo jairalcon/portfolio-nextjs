@@ -10,8 +10,8 @@ import contactImg from '../public/assets/contact.jpg';
 const Contact = () => {
 
     // function handleSubmit() {
-        //todo needs to clear form once submitted
-        //? https://docs.getform.io/guides/nextjs/
+    //todo needs to clear form once submitted
+    //? https://docs.getform.io/guides/nextjs/
     // }
 
     return (
@@ -94,19 +94,19 @@ const Contact = () => {
                                 </div>
                                 <div className='flex flex-col py-2'>
                                     <label className='uppercase text-sm py-2'>Email</label>
-                                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type="email" name='email'/>
+                                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type="email" name='email' />
                                 </div>
 
                                 <div className='flex flex-col py-2'>
                                     <label className='uppercase text-sm py-2'>Subject</label>
-                                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" name='subject'/>
+                                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" name='subject' />
                                 </div>
 
                                 <div className='flex flex-col py-2'>
                                     <label className='uppercase text-sm py-2'>Message</label>
-                                    <textarea className='border-2 rounded-lg p-3 border-gray-300' rows='10' type="text" name='message'/>
+                                    <textarea className='border-2 rounded-lg p-3 border-gray-300' rows='10' type="text" name='message' />
                                 </div>
-                                <button className='w-full p-4 text-gray-100 mt-4'>Send Message to Jair</button>
+                                <button className='w-full p-4 text-gray-100 mt-4 hover:scale-105 ease-in duration-300'>Send Message to Jair</button>
                             </form>
                         </div>
                     </div>
