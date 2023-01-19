@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import React from 'react';
 import AWS from '../public/assets/skills/aws.png';
 import CSS from '../public/assets/skills/css.png';

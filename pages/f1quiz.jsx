@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from "next/legacy/image";
 import React from 'react'
 import f1QuizImg from '../public/assets/projects/f1quiz.jpg';
 import { RiRadioButtonFill } from 'react-icons/ri';
