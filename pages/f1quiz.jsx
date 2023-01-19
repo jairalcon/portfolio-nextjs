@@ -29,7 +29,7 @@ const property = () => {
                     <p>Project</p>
                     <h2>Overview</h2>
                     <p>
-                        For Promineo Tech's Final Coding Project, our goal was to create a React App of our choosing, which should utilize all CRUD operations with a back-end API. We also needed to have at least 10 JSX components in the app. The most challenging part for me was writing JSON to connect to the back-end API. I tried axios and that seemed to work a little more clearly for me at the time. An issue I have with my app is that the react audio player restarts when navigating. I've looked into it and might have an idea on how to debug.
+                        For Promineo Tech&rsquo;s Final Coding Project, our goal was to create a React App of our choosing, which should utilize all CRUD operations with a back-end API. We also needed to have at least 10 JSX components in the app. The most challenging part for me was writing JSON to connect to the back-end API. I tried axios and that seemed to work a little more clearly for me at the time. An issue I have with my app is that the react audio player restarts when navigating. I&rsquo;ve looked into it and might have an idea on how to debug.
                     </p>
                     <Link href='https://main.d7xensven6o6k.amplifyapp.com/'>
                         <button className='px-8 py-2 mt-4 mr-8 hover:scale-110 ease-in duration-300'>Demo</button>
